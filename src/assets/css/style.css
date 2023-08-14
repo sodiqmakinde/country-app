@@ -11,6 +11,7 @@ header {
   --black: #000;
   --white: #fff;
   --gray: #f4f4f4;
+  --pure60: rgb(160, 160, 160);
 }
 
 /* Dark mode */
@@ -18,6 +19,7 @@ header {
   --black: #fff;
   --white: #000;
   --gray: #161616;
+  --pure60: #fff;
 }
 
 * {

@@ -13,17 +13,17 @@ const EachCountries = () => {
     showLoading(false);
   }, []);
 
-   const filteredCountries = countries.filter((country) =>
-     country.name.common.toLowerCase().includes(searchQuery.toLowerCase())
-   );
-
+  const filteredCountries = countries.filter((country) =>
+    country.name.common.toLowerCase().includes(searchQuery.toLowerCase())
+  );
 
   return (
     <DisplayCountries className="container">
-      <div>
+      <div className="search_box">
+        <span class="material-symbols-outlined">search</span>
         <input
           type="text"
-          placeholder="Search"
+          placeholder="Search for a country ..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
@@ -86,5 +86,29 @@ let Each = styled.div`
 `;
 
 let DisplayCountries = styled.section`
-padding-top: 150px;
+  padding-top: 150px;
+  .search_box {
+    max-width: 320px;
+    background-color: var(--white);
+    display: flex;
+    border-radius: 5px;
+    span {
+      font-size: 25px;
+      margin-right: 10px;
+      position: relative;
+      top: 13px;
+      left: 15px;
+      color: var(--pure60);
+    }
+    input {
+      color: var(--black);
+      background-color: var(--white);
+      border-radius: 5px;
+      border: 0;
+      outline: none;
+      width: 95%;
+      font-size: 16px;
+      padding: 15px;
+    }
+  }
 `;
