@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&display=swap");
+header {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Light mode */
+.light-mode {
+  --black: #000;
+  --white: #fff;
+  --gray: #f4f4f4;
+}
+
+/* Dark mode */
+.dark-mode {
+  --black: #fff;
+  --white: #000;
+  --gray: #161616;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background-color: var(--gray);
+}
+
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+img {
+  width: 100%;
+}
+
+p,
+li,
+h1,
+h5,
+h2 {
+  color: var(--black);
+}
+
+.imgStart {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--globalColor);
+}
+.imgStart img {
+  width: 500px;
+  height: 500px;
+}
+.imgStart p {
+  font-size: 14px;
+}
+.imgStart p:hover {
+  font-size: var(--headingSize);
+}/*# sourceMappingURL=style.css.map */

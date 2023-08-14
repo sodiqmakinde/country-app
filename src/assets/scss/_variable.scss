@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&display=swap");
+
+$primary: teal;
+$size: 14px;
+
+// :root {
+//   --globalColor: gray;
+//   --black: black;
+//   --yellow: #e19f17ff;
+//   --green: #2abb98ff;
+//   --white: #ffffff;
+//   --headingSize: 50px;
+//   --grayBlack: #f4f4f4;
+// }
+
+/* Light mode */
+.light-mode {
+  --black: #000;
+  --white: #fff;
+  --gray: #f4f4f4;
+}
+
+/* Dark mode */
+.dark-mode {
+  --black: #fff;
+  --white: #000;
+  --gray: #161616;
+}
