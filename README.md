@@ -7,7 +7,7 @@ This is a React project that utilizes the REST Countries API to display informat
 
 ## Features
 
--   View information about various countries, including their names, populations, languages, currencies, and more.
+-   View information about various countries, including their names, borders, populations, languages, currencies, and more.
 -   Toggle between light and dark color themes to suit your visual preferences.
 -   Responsive design that works well on different screen sizes, from mobile devices to desktops.
 
